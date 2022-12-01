@@ -19,7 +19,7 @@ with open('input.txt') as f:
             elf_nr = elf_nr + 1
             calories = 0
         else:
-            calories = calories + int(line.strip('\n'))
+            calories = calories + int(line)
 
 print("Elf number " + str(solution[0]) + " is carrying " + str(solution[1]) + " calories.")   
 
@@ -37,7 +37,7 @@ with open('input.txt') as f:
             elf_nr = elf_nr + 1
             calories = 0
         else:
-            calories = calories + int(line.strip('\n'))
-
+            calories = calories + int(line)
+            
 Elf_List.sort(reverse=True)
 print("The top three elves are carrying " + str(Elf_List[0] + Elf_List[1] + Elf_List[2]) + " calories.")
