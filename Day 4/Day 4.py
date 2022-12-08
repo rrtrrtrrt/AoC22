@@ -38,6 +38,3 @@ with open('input.txt') as f:
         elif int(sectors2[1]) in range(int(sectors1[0]), int(sectors1[1])+1): 
             counter2 += 1
 print("The number of pairs that overlap at all is " + str(counter2))
-
-
-
