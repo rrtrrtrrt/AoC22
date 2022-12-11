@@ -27,6 +27,7 @@ for char in data:
 
 last_fourteen_chars = []
 char_counter = 14
+
 for char in data:
     if len(last_fourteen_chars) < 14:
         last_fourteen_chars.append(char)
